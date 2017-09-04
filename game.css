@@ -2,8 +2,14 @@ body {
   background-color: #8ed9f1;
 }
 
+h2{
+  margin: auto;
+  text-align: center;
+  padding: 8px;
+}
+
 canvas {
-    padding-top: 75px;
+    padding-top: 10px;
     margin: auto;
     display: block;
 }
