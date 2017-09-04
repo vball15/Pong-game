@@ -15,4 +15,5 @@ canvas {
     padding-top: 10px;
     margin: auto;
     display: block;
+    cursor: none;
 }

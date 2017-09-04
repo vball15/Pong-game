@@ -130,8 +130,8 @@ function moveGamePieces(){
 }
 
 function drawNet(){
-  for(var i = 0; i < canvas.height; i+=42){
-    colorRect(canvas.width/2-2, i, 4, 22,'white');
+  for(var i = 0; i < canvas.height; i+=34){
+    colorRect(canvas.width/2-2, i, 4, 21,'white');
   }
 }
 
@@ -158,9 +158,9 @@ function drawEverything(){
   colorCircle(ballX, ballY, 10, 'red');
 
   canvasContext.fillStyle = 'white';
-  canvasContext.font = '20px Courier New';
-  canvasContext.fillText(player1Score, 100, 100, 200);
-  canvasContext.fillText(player2Score, canvas.width - 100, 100, 100);
+  canvasContext.font = '22px Courier New';
+  canvasContext.fillText(player1Score, 300, 60, 200);
+  canvasContext.fillText(player2Score, canvas.width - 300, 60, 100);
 }
 
 function colorCircle(centerX, centerY, radius,drawColor){
